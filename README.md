@@ -22,34 +22,18 @@ None.
 
 ## Data.  
 
-The qualitative data are shown in the Figure.
+The qualitative data are shown in the Figure. It shows that a newborn child suffered from hypertension,
+potentially due to dialysis treatment. The model tested the hypothesis that dialysis may be a cause.
 
 # Use.
 
-# Uptake by other users.
-
-# Maintainer.
-
-
-# Provenance.
-
-New releases of the self deployed PM3-SV components are handled by the lead developer and co-investigator Dr. SR Kharche (Lawson Health Institute, Canada), 
-in consultation with Dr. Daniel Goldman (co-investigator) and Dr. C. W. McIntyre (named PI). Before each release any tests for the component 
-or service are run to verify integration. New additions and features to the code base must pass all current tests 
-and are approved by the lead developer. New additions by users will be fully tested and documented by the developer team. 
-The code is commented to provide information regarding original author, testing, use, and maintainence.
-The working repository also has documentation to assist uptake by new users.
-After release, the developer team will provide support for the use of existing and new functionality. Each release will 
-be accompanied by commits and changelog updates on their respective git/GitHub repositories. The third-party software 
-and libraries are kept locked at specific versions. The PM3-SV components will receive updates when these libraries are 
-updated for specific improvements.
+The model is set up for parameter search in paramters that were thought to be relevant, e.g. peripheral
+resistance (microvascular resistance). In addition, it uses the Sundials CVODES functions to provide
+dynamic sensitivity of dynamical variables with respect to model paramters.
 
 # Acknowledements.
 
-This project was generously funded by CANARIE Inc. Canada (April 2020 to March 2023). British Heart Foundation. Wellcome Trust. EPSRC. Exeter University internal funding. Western University internal funding.
-The principal investigator was XYZ. The co-investigators were: ABC, DEC, GHI.
-The employees were:
-We also thank the Kidney Unit in Lawson, London Ontario, Canada, for hosting this project.
+This project was supported by Dr. Guido Filler, Head of Paediatric Nephrology, Lawson. 
 
 # Licence.
 
