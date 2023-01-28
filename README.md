@@ -27,9 +27,11 @@ potentially due to dialysis treatment. The model tested the hypothesis that dial
 
 # Use.
 
-The model is set up for parameter search in paramters that were thought to be relevant, e.g. peripheral
+The model is set up for parameter search in parameters that were thought to be relevant, e.g. peripheral
 resistance (microvascular resistance). In addition, it uses the Sundials CVODES functions to provide
-dynamic sensitivity of dynamical variables with respect to model paramters.
+dynamic sensitivity of dynamical variables with respect to model parameters. As a medical student (Andrea Kassay)
+was involved, some matlab programs to draw line diagrams and for presenting the clinical inspiration
+were provided.
 
 # Acknowledements.
 
